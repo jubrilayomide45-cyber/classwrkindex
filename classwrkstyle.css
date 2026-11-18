@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Jbl {
+    width: 70%;
+    height: 70dvh;
+    margin: 20px auto;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    padding: 5px;
+    background-color: bisque;
+}
+
+.Jbl div {
+    background-color: white;
+    display: grid;
+    place-content: center;
+}
+
+.Jbl .Jb1 {
+    background-color: orange;
+    grid-column: 1/2;
+}
+.Jbl .Jb2{
+    background-color: green;
+    grid-column: 2/3;
+}
+.Jbl .Jb3{
+    background-color: red;
+    grid-column: 3/4;
+}
+.Jbl .Jb4{
+    background-color: rgb(0, 170, 255);
+    grid-column: 4/5;
+}
+.Jbl .Jb5{
+    background-color: yellow;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+.Jbl .Jb6{
+    background-color: purple;
+    grid-row: 2/4;
+}
+.Jbl .Jb7{
+    background-color: brown;
+    grid-row: 4/8;
+    grid-column: 1/4;
+}
+.Jbl .Jb8{
+    background-color: gold;
+    grid-row: 4/8;
+    
+}
